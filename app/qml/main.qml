@@ -28,6 +28,7 @@ ApplicationWindow {
 
     width: 1024
     height: 768
+    flags: Qt.CustomizeWindowHint | Qt.WindowMinimizeButtonHint | Qt.WindowMaximizeButtonHint
 
     // Save window properties automatically
     onXChanged: appSettings.x = x
